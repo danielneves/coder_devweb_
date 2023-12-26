@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula - Desafio Extra</title>
+    <!-- 
+        - Crie uma página seguindo o layout da imagem a seguir (Use HTML semântico nas tags e meta tags)
+        - No header insira algumas informações genéricas ou pessoais - não sensíveis (nome, profissão, idade, signo, etc.)
+        - Na primeira <section> insira uma receita usando listas ordenadas para o passo a passo e não ordenadas para os ingredientes, deixe também o link para acessar a referência
+        - Na segunda <section> insira a tabela mostrada na imagem a seguir
+        - No <article> insira uma notícia recente com uma imagem, deixe também o link para acessar a referência
+        - No <footer> insira suas informações de contato (email, telefone, etc)
+     -->
+     <style>
+        *{
+            font-family: sans-serif;
+        }
+        header,section,footer{
+            border: 1px solid cyan;
+            padding: 10px;
+        }
+        
+     </style>
+</head>
+<body>
+    <header>
+        <h1>Informações pessoais</h1>
+        <article>
+            <ul>
+                <li>Emily Johnson</li>
+                <li>Idade: 28 anos</li>
+                <li>Ocupação: Engenheira de software</li>
+                <li>Localização: São Francisco, Califórnia</li>
+                <li>Educação: Bacharelado em Ciência da Computação pela Universidade de Stanford
+                </li>
+                <li>Experiência Profissional: Cinco anos em uma grande empresa de tecnologia, especializada no desenvolvimento de aplicativos móveis
+                </li>
+                <li>Interesses: Pratica ioga, gosta de ler romances, aprendendo a tocar violão e apaixonada por viagens
+                </li>
+            </ul>
+        </article>
+    </header>
+    <section>
+        <h2>Ingredientes</h2>
+    <ul>
+        <li>4 bananas</li>
+        <li>1 xícara de açúcar demerara</li>
+        <li>1/2 xícara de óleo de coco</li>
+        <li>1 colher de canela</li>
+        <li>2 xícaras de farinha integral</li>
+        <li>1 xícara de água quente</li>
+        <li>1 colher de fermento</li>
+    </ul>
+    <h2>Modo de Preparo</h2>
+    <ol>
+        <li>Amasse as bananas.</li>
+        <li>Misture a farinha, açúcar, canela, o óleo de coco e as bananas em um recipiente.</li>
+        <li>Após a mistura estar homogênea, acrescente a água e misture.</li>
+        <li>Adicione o fermento e misture.</li>
+        <li>Coloque em uma forma untada e enfarinhada.</li>
+        <li>Leve para assar em forno preaquecido a 180º C por 40 minutos.</li>
+    </ol>
+    </section>
+
+    <section>
+        <table border>
+            <tr><!-- início da linha do cabeçalho-->
+                <th style="background-color: #EAFF6A; padding: 10px 60px;">Produto</th>
+                <th style="background-color: #EAFF6A; padding: 10px 60px;">Preço Unitário</th>
+                <th style="background-color: #EAFF6A; padding: 10px 60px;">Quantidade em estoque </th>
+            </tr><!-- final da linha do cabeçalho-->
+    
+            <tr><!-- início da primeira linha-->
+                <td>HD SATA 80 GB</td>
+                <td>R$ 85,00</td>
+                <td>35</td>
+            </tr><!-- final da primeira linha -->
+    
+            <tr><!-- início da segunda linha-->
+                <td>Pen Drive 2 GB</td>
+                <td>R$ 15,00</td>
+                <td>150</td>
+            </tr><!-- final da segunda linha -->
+
+            <tr><!-- início da segunda linha-->
+                <td>Impressora Laser Colorida</td>
+                <td>R$ 613,99</td>
+                <td>18</td>
+                
+            </tr><!-- final da segunda linha -->
+
+            <tr><!-- início da segunda linha-->
+                <td>Monitor LCD 17’</td>
+                <td>R$ 309,00</td>
+                <td>41</td>
+                
+            </tr><!-- final da segunda linha -->
+
+        </table>
+
+        
+
+    </section>
+
+    <article>
+        <h2>Notícias</h2>
+           <a href="https://uniaodeciclistas.org.br/geral/canal-aberto-no-10-em-jequie-ba-estudantes-criam-dispositivo-eletronico-de-seguranca-para-ciclistas-cicloolhar/" >
+             <h3>Canal Aberto – Nº 10 – Em Jequié (BA) estudantes criam dispositivo eletrônico de segurança para ciclistas #cicloolhar</h3>
+            <img alt="Imagem com fundo rosa com texto Canal Aberto e foto de pessoas ao lado de uma bicileta" src="https://uniaodeciclistas.org.br/uploads/2023/12/canal-aberto-card2.jpg" width="200px" height="auto">
+            <br>
+            <button>Acesse aqui</button>            
+            </a>
+            
+
+    </article>
+    <footer>
+        <a href = "mailto: abc@example.com">Email</a>
+        <a href="tel:+558599999999">Me liga</a>
+
+    </footer>
+</body>
+</html>
